@@ -1,0 +1,6 @@
+to activate the webcam for yolo
+
+conda activate yolov8
+cd C:\trash_robot
+python predict.py //for test_img
+yolo task=detect mode=predict model="C:\trash_robot\best.pt" source=0 show=True //for webcam
